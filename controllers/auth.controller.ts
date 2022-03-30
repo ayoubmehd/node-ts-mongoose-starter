@@ -1,5 +1,4 @@
 import { NextFunction, Request, Response, Router } from "express";
-import AuthModel from "@models/User.model";
 import UserRepo from "@repos/UserRepo";
 import { sign } from "jsonwebtoken";
 
