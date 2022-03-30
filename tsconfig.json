@@ -1,0 +1,41 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "display": "Node 16",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "lib": [
+            "es2021"
+        ],
+        "outDir": "./dist",
+        "module": "CommonJS",
+        "target": "ES2017",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "@controllers/*": [
+                "controllers/*"
+            ],
+            "@routes/*": [
+                "routes/*"
+            ],
+            "@repos/*": [
+                "repos/*"
+            ],
+            "@models/*": [
+                "models/*"
+            ],
+            "@middleware/*": [
+                "middleware/*"
+            ]
+        }
+    },
+    "exclude": [
+        "./scripts",
+        "./node_moules",
+        "./seeders"
+    ],
+}
